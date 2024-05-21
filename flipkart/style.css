@@ -10,8 +10,19 @@ body {
 }
 
 
+body {
+    background-color: #e7e5e5;
+    margin-top: 80px;
+}
+
+
 .navbar {
     display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
 
 
     text-align: center;
